@@ -21,3 +21,8 @@ const markup = images
   .join("");
 
 ourGallery.insertAdjacentHTML("beforeend", markup);
+ourGallery.style.display = 'flex';
+ourGallery.style.display = 'flex-wrap';
+ourGallery.style.flexWrap = 'wrap';
+ourGallery.style.display = 'gap';
+ourGallery.style.gap = '50px';
